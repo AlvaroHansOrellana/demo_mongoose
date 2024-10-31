@@ -56,9 +56,9 @@ async function listGames() {
 }
 
 
-//createPublisher('Nintendo', true, 'https://www.nintendo.com/');
-//createPublisher('Sony', true, 'https://www.sony.com/');
-//createPublisher('Sega', true, 'https://www.sega.com/');
+// createPublisher('Nintendo', true, 'https://www.nintendo.com/');
+// createPublisher('Sony', true, 'https://www.sony.com/');
+// createPublisher('Sega', true, 'https://www.sega.com/');
 
 
 //createGame('Sonic the Hedgehog', '62ea5c8deb0cc4db1eb95366');
@@ -67,22 +67,22 @@ async function listGames() {
 
 
 //Crear juego buscando primero el ID de Sony
-/* company.find({companyName:"Sony"}, function(err, docs) {
-    if (err) {
-        console.log(err);
-    } else {
-        var id = docs[0]._id;
-        console.log(id.toString());
-        createGame('Crash Bandicoot 2', id); // Crear el juego
+//  Publisher.find({companyName:"Sony"}, function(err, docs) {
+//     if (err) {
+//         console.log(err);
+//     } else {
+//         var id = docs[0]._id;
+//         console.log(id.toString());
+//         createGame('Crash Bandicoot 2', id); // Crear el juego
 
-    }
-}); */
-
-//Crear juego pasando el ID de Sony
-//createGame2('Crash Bandicoot 3', 'Sony');
+//     }
+// }); 
 
 //Crear juego pasando el ID de Sony
-//createGame2('Tetris', 'Nintendo');
+// createGame2('Crash Bandicoot 3', 'Sony');
+
+//Crear juego pasando el ID de Sony
+// createGame2('Tetris', 'Nintendo');
 
 // Listar todos los juegos
-//listGames()
+listGames()
